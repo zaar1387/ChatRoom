@@ -9,6 +9,7 @@ socketio = SocketIO(app)
 
 rooms = {}
 
+
 def generate_unique_code(length):
     while True:
         code = ""
