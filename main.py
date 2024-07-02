@@ -82,7 +82,7 @@ def connect(auth):
         return
     
     join_room(room)
-    send({"name": name, "message": "has entered the room"}, to=room)
+    send({"name": name, "message": "Ingresaste al chat PITAP"}, to=room)
     rooms[room]["members"] += 1
     print(f"{name} joined room {room}")
 
